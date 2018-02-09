@@ -1,0 +1,5 @@
+c:\users\alina_apet\documents\visual studio 2015\Projects\EqLib\EqLib\bin\Debug\EqLib.dll
+c:\users\alina_apet\documents\visual studio 2015\Projects\EqLib\EqLib\bin\Debug\EqLib.pdb
+c:\users\alina_apet\documents\visual studio 2015\Projects\EqLib\EqLib\obj\Debug\EqLib.csprojResolveAssemblyReference.cache
+c:\users\alina_apet\documents\visual studio 2015\Projects\EqLib\EqLib\obj\Debug\EqLib.dll
+c:\users\alina_apet\documents\visual studio 2015\Projects\EqLib\EqLib\obj\Debug\EqLib.pdb

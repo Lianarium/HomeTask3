@@ -1,0 +1,132 @@
+ 
+Log Entry : 5:03:13 PM Friday, February 9, 2018
+  :
+  :Equation: x^24 = 0 /nroot: -2
+-------------------------------
+
+Log Entry : 5:04:14 PM Friday, February 9, 2018
+  :
+  :Equation: x^4+8 = 0 
+root: -2
+-------------------------------
+
+Log Entry : 5:05:17 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+10 = 0 
+    root: -2
+-------------------------------
+
+Log Entry : 5:17:54 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^71 = 0 
+   root1: -4.03708798216374
+   root2: -30.9629120178363
+-------------------------------
+
+Log Entry : 5:18:32 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^7 + 1 = 0 
+   root1: -4.03708798216374
+   root2: -30.9629120178363
+-------------------------------
+
+Log Entry : 5:31:07 PM Friday, February 9, 2018
+  :
+  :Incorrect data: werewrqwceerc
+-------------------------------
+
+Log Entry : 5:31:09 PM Friday, February 9, 2018
+  :
+  :Incorrect data: ewcqcrqwcwcw
+-------------------------------
+
+Log Entry : 5:31:18 PM Friday, February 9, 2018
+  :
+  :Incorrect data: kiss my ass
+-------------------------------
+
+Log Entry : 5:31:20 PM Friday, February 9, 2018
+  :
+  :Incorrect data: 3
+-------------------------------
+
+Log Entry : 5:31:22 PM Friday, February 9, 2018
+  :
+  :Equation: x^3+7 = 0 
+    root: -2.33333333333333
+-------------------------------
+
+Log Entry : 5:33:29 PM Friday, February 9, 2018
+  :
+  :Incorrect data: sddvfev
+-------------------------------
+
+Log Entry : 5:33:31 PM Friday, February 9, 2018
+  :
+  :Incorrect data: dfdvdsvfsdvfs
+-------------------------------
+
+Log Entry : 5:33:33 PM Friday, February 9, 2018
+  :
+  :Incorrect data: dvfdsfvfvfvdsv
+-------------------------------
+
+Log Entry : 5:33:34 PM Friday, February 9, 2018
+  :
+  :Incorrect data: dsfvdvfsdv
+-------------------------------
+
+Log Entry : 5:33:36 PM Friday, February 9, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1
+-------------------------------
+
+Log Entry : 5:52:06 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^6 + 2 = 0 
+   root1: NaN
+   root2: NaN
+-------------------------------
+
+Log Entry : 5:53:45 PM Friday, February 9, 2018
+  :
+  :Equation: x^7+ y^9 + 2 = 0 
+   root1: -14
+   root2: -49
+-------------------------------
+
+Log Entry : 5:54:32 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^8 + 1 = 0 
+   root1: -3.416876048223
+   root2: -36.583123951777
+-------------------------------
+
+Log Entry : 5:54:52 PM Friday, February 9, 2018
+  :
+  :Equation: x^6+ y^3 + 1 = 0 
+   root1: NaN
+   root2: NaN
+-------------------------------
+
+Log Entry : 5:55:10 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^10 + 2 = 0 
+   root1: -5.63508326896291
+   root2: -44.3649167310371
+-------------------------------
+
+Log Entry : 5:55:59 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^10 + 3 = 0 
+   root1: -9.1886116991581
+   root2: -40.8113883008419
+-------------------------------
+
+Log Entry : 5:58:05 PM Friday, February 9, 2018
+  :
+  :Equation: x^5+ y^10 + 3 = 0 
+   root1: -9.1886116991581
+   root2: -40.8113883008419
+-------------------------------

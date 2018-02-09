@@ -1,0 +1,8 @@
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\LibRunner.exe.config
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\LibRunner.exe
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\LibRunner.pdb
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\obj\Debug\LibRunner.exe
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\obj\Debug\LibRunner.pdb
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\obj\Debug\LibRunner.csprojResolveAssemblyReference.cache
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\EqLib.dll
+c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\EqLib.pdb
