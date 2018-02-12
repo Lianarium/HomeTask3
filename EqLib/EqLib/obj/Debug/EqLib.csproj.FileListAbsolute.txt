@@ -9,3 +9,8 @@ C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.csprojReso
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.csproj.CoreCompileInputs.cache
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.dll
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\EqLib\bin\Debug\EqLib.dll
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\EqLib\bin\Debug\EqLib.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.csprojResolveAssemblyReference.cache
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.dll
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\EqLib\obj\Debug\EqLib.pdb

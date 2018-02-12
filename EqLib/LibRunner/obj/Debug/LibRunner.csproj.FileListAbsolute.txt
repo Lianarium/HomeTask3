@@ -15,3 +15,11 @@ C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.cs
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.csproj.CoreCompileInputs.cache
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.exe
 C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.exe.config
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.exe
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.exe
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\bin\Debug\EqLib.dll
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\bin\Debug\EqLib.pdb
+C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.csprojResolveAssemblyReference.cache

@@ -262,3 +262,291 @@ Log Entry : 22:10:10 11 февраля 2018 г.
   :Equation: x^4+5 = 0 
     root: -1,25
 -------------------------------
+
+Log Entry : 12:20:08 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 12:20:38 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 12:21:20 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 12:22:16 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 12:22:51 PM Monday, February 12, 2018
+  :
+  :Equation: x^6+7 = 0 
+    root: -1.16666666666667
+-------------------------------
+
+Log Entry : 12:30:00 PM Monday, February 12, 2018
+  :
+  :Equation: x^45+5 = 0 
+    root: -0.111111111111111
+-------------------------------
+
+Log Entry : 12:30:11 PM Monday, February 12, 2018
+  :
+  :Equation: x^3+4 = 0 
+    root: -1.33333333333333
+-------------------------------
+
+Log Entry : 1:45:04 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 1:45:39 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 1:47:57 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 1:48:41 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 1:49:08 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 1:49:24 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 2:02:41 PM Monday, February 12, 2018
+  :
+  :Equation: x^6+7 = 0 
+    root: -1.16666666666667
+-------------------------------
+
+Log Entry : 2:02:54 PM Monday, February 12, 2018
+  :
+  :Equation: x^6+7 = 0 
+    root: -1.16666666666667
+-------------------------------
+
+Log Entry : 2:05:37 PM Monday, February 12, 2018
+  :
+  :Equation: x^3+4 = 0 
+    root: -1.33333333333333
+-------------------------------
+
+Log Entry : 2:06:30 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 2:12:07 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 2:12:38 PM Monday, February 12, 2018
+  :
+  :Equation: x^3+4 = 0 
+    root: -1.33333333333333
+-------------------------------
+
+Log Entry : 2:12:55 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:02:26 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:03:46 PM Monday, February 12, 2018
+  :
+  :Equation: x^3+4 = 0 
+    root: -1.33333333333333
+-------------------------------
+
+Log Entry : 3:04:12 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:04:28 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:05:12 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:05:46 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:06:04 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:07:02 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:07:52 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:09:22 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:10:03 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:12:10 PM Monday, February 12, 2018
+  :
+  :Equation: x^1+4 = 0 
+    root: -4
+-------------------------------
+
+Log Entry : 3:13:22 PM Monday, February 12, 2018
+  :
+  :Equation: x^1+4 = 0 
+    root: -4
+-------------------------------
+
+Log Entry : 3:17:00 PM Monday, February 12, 2018
+  :
+  :Equation: x^2+3 = 0 
+    root: -1.5
+-------------------------------
+
+Log Entry : 3:17:23 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:18:38 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:18:50 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:25:29 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 3:25:56 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:29:15 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:30:02 PM Monday, February 12, 2018
+  :
+  :Equation: x^5+6 = 0 
+    root: -1.2
+-------------------------------
+
+Log Entry : 3:30:31 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:31:08 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:31:43 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------
+
+Log Entry : 3:32:18 PM Monday, February 12, 2018
+  :
+  :Equation: x^2+5 = 0 
+    root: -2.5
+-------------------------------
+
+Log Entry : 3:33:42 PM Monday, February 12, 2018
+  :
+  :Equation: x^1+2 = 0 
+    root: -2
+-------------------------------
+
+Log Entry : 3:34:56 PM Monday, February 12, 2018
+  :
+  :Equation: x^1+5 = 0 
+    root: -5
+-------------------------------
+
+Log Entry : 3:35:43 PM Monday, February 12, 2018
+  :
+  :Equation: x^4+5 = 0 
+    root: -1.25
+-------------------------------

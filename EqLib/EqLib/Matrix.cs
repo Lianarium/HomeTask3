@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
@@ -10,83 +11,146 @@ namespace EqLib
 {
 	public class Matrix
 	{
-        private  int num_columns;
-        private int num_rows;
-        private double[,] array;
+		private int num_columns;
+		private int num_rows;
+		private double[,] array;
 
 
-        public int GetColumns()
-        {
-            return num_columns;
-        }
+		public int GetColumns()
+		{
+			return num_columns;
+		}
 
-        public int GetRows()
-        {
-            return num_columns;
-        }
+		public int GetRows()
+		{
+			return num_rows;
+		}
 
-        public double[,] GetArray()
-        {
-            return array;
-        }
+		public double[,] GetArray()
+		{
+			return array;
+		}
 
-        public Matrix()
-        {
-            this.num_columns = 2;
-            this.num_rows = 4;
-            array = new double[num_columns, num_rows];
+		public Matrix()
+		{
+			this.num_columns = 0;
+			this.num_rows = 0;
+			array = new double[num_rows, num_columns];
 
-        }
+		}
 
-        public void addMatrix(Matrix obj)
-        {
-            string config = ConfigurationSettings.AppSettings.Get("config_file_name");
+		public static string SourceOfMatrixA()
+		{
+			string config = ConfigurationSettings.AppSettings.Get("config_file_name_A");
+			return config;
+		}
 
-            for (int i = 0; i < obj.num_columns; i++)
-            {
-                for (int j=0; j < obj.num_rows; j++)
-                {
-                    foreach (string line in File.ReadLines(config))
 
-                    {
-                        char[] lineArray = line.ToCharArray();
-                        for (int k = 0; k < lineArray.Length; k++)
-                        {
-                            double matrix_element;
-                            if (double.TryParse(Convert.ToString(lineArray[i]), out matrix_element) && lineArray[i] != ' ')
-                            {
-                                this.array[i, j] = matrix_element;
-                                Console.WriteLine(array[i,j] + "&");
-                            }
+		public static string SourceOfMatrixB()
+		{
+			string config = ConfigurationSettings.AppSettings.Get("config_file_name_B");
+			return config;
+		}
 
-                        }
-                    }
-                }
-            }   
-        }
+		public static void ReadMatrixFromFile(Matrix obj, string source)
+		{
 
-        public void ArrayOutput(Matrix obj)
-        {
-            for (int i=0; i< obj.num_columns; i++)
-            {
-                 
+			Queue arr = new Queue();
+			foreach (string line in File.ReadLines(source))
+			{
 
-                for (int j=0; j<obj.num_rows; j++)
-                {
-                    Console.WriteLine(obj.array[i, j] + "*");
-                }
-            }
-        }
+				char[] lineArray = line.ToCharArray();
+				obj.num_rows++;
 
-        /*public static Matrix umn(Matrix a, Matrix b)
-        {
-            Matrix result = new Matrix(a.N);
-            for (int i = 0; i < a.N; i++)
-                for (int j = 0; j < b.N; j++)
-                    for (int k = 0; k < b.N; k++)
-                        resMass[i, j] += a[i, k] * b[k, j];
+				double matrix_element;
+				for (int k = 0; k < lineArray.Length; k++)
+				{
+					if (double.TryParse(Convert.ToString(lineArray[k]), out matrix_element) && lineArray[k] != ' ')
+						obj.num_columns++;
+					arr.Enqueue(matrix_element);
 
-            return resMass;
-        }*/
+				}
+			}
+
+
+			obj.num_columns = obj.num_columns / obj.num_rows;
+			obj.array = new double[obj.num_rows, obj.num_columns];
+
+			for (int i = 0; i < obj.num_rows; i++)
+			{
+				for (int j = 0; j < obj.num_columns; j++)
+				{
+					double el = Convert.ToDouble(arr.Dequeue());
+					obj.array[i, j] = el;
+				}
+			}
+			Console.Write("\n");
+
+			for (int i = 0; i < obj.num_rows; i++)
+			{
+				Console.Write("\n");
+				for (int j = 0; j < obj.num_columns; j++)
+				{
+					Console.Write(obj.array[i, j]);
+				}
+			}
+
+			Console.Write("\n");
+
+
+		}
+
+
+
+
+		public  static void  MultiplyMatrix(Matrix matrixa, Matrix matrixb)
+		{
+			
+			if (!(matrixa.num_columns == matrixb.num_rows))
+			{
+				Console.WriteLine("Error!");
+			}
+
+			else if (matrixa.num_columns == matrixb.num_rows)
+			{
+
+				Matrix result = new Matrix();
+
+				result.array = new double[matrixa.num_columns, matrixb.num_rows];
+
+				for (int i = 0; i < matrixb.num_rows; i++)
+				{
+					for (int j = 0; j < matrixa.num_columns; j++)
+					{
+						for (int k = 0; k < 2; k++)
+						{
+							result.array[i, j] += matrixa.array[i, k] * matrixb.array[k, j];
+						}
+					}
+				}
+
+				Console.WriteLine(result.num_columns);
+				Console.WriteLine(result.num_rows);
+
+
+				for (int i = 0; i < result.num_rows; i++)
+				{
+					Console.Write("\n");
+					for (int j = 0; j < result.num_columns; j++)
+					{
+						Console.WriteLine(result.array[i, j]+"*");
+					}
+				}
+
+				Console.Write("\n");
+				//return result;
+				 
+			}
+
+
+		}
+			//return result;
+
+		}
     }
-}
+
