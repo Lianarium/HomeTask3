@@ -11,7 +11,7 @@ namespace EqLib
 	{
 
 
-		public static string LOGFILE = @"C:\Users\Alina_Apet\Documents\HomeTask3\HomeTask3\EqLib\Log.txt";
+		public static string LOGFILE = "Log.txt";
 
 		public static void WriteLogLinearEquationAndRoots(LinearEq equation)
 		{
@@ -25,7 +25,7 @@ namespace EqLib
 		{
 			using (StreamWriter w = File.AppendText(LOGFILE))
 			{
-				Log("Equation: " + "x^" + equation.getkoef1() + "+ y^" + equation.getkoef2() + " + " + equation.getkoef3() + " = 0 \n   root1: " + equation.getroot1() + "\n   root2: " + equation.getroot2(), w);
+				Log("Equation: " + "(x^2)*" + equation.getkoef1() + " + (y)*" + equation.getkoef2() + " + " + equation.getkoef3() + " = 0 \n   root1: " + equation.getroot1() + "\n   root2: " + equation.getroot2(), w);
 			}
 		}
 

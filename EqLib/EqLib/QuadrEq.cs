@@ -99,11 +99,10 @@ namespace EqLib
 
 		public static void OutputResult(QuadrEq equation)
 		{
-			Console.WriteLine("{00:0.##}",equation.root1);
-			Console.WriteLine("{00:0.##}",equation.root2);
-			Console.WriteLine(equation.root1);
-			Console.WriteLine(equation.root2);
 
-		}
+            Console.WriteLine("root1: " + String.Format("{0:F2}", equation.root1));
+            Console.WriteLine("root2: " + String.Format("{0:F2}", equation.root2));
+
+        }
 	}
 }

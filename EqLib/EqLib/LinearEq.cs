@@ -67,8 +67,7 @@ namespace EqLib
 
 		public static void OutputResult(LinearEq equation)
 		{
-			Console.WriteLine("root: " + equation.root);
-             
+            Console.WriteLine("root: " + String.Format("{0:F2}", equation.root));
         }
 
     }

@@ -56,18 +56,17 @@ namespace EqLib
 		{
 
 			Queue arr = new Queue();
-			foreach (string line in File.ReadLines(source))
-			{
-
-				char[] lineArray = line.ToCharArray();
-				obj.num_rows++;
-
-				double matrix_element;
+            foreach (string line in File.ReadLines(source))
+            {
+                char separator = ' ';
+                string[] lineArray = line.Split(separator);
+                obj.num_rows++;
+                double matrix_element;
 				for (int k = 0; k < lineArray.Length; k++)
 				{
-					if (double.TryParse(Convert.ToString(lineArray[k]), out matrix_element) && lineArray[k] != ' ')
+					if (double.TryParse(Convert.ToString(lineArray[k]), out matrix_element))
 						obj.num_columns++;
-					arr.Enqueue(matrix_element);
+					    arr.Enqueue(matrix_element);
 
 				}
 			}
@@ -91,7 +90,7 @@ namespace EqLib
 				Console.Write("\n");
 				for (int j = 0; j < obj.num_columns; j++)
 				{
-					Console.Write(obj.array[i, j]);
+					Console.Write(obj.array[i, j]+" ");
 				}
 			}
 
@@ -116,29 +115,34 @@ namespace EqLib
 
 				Matrix result = new Matrix();
 
-				result.array = new double[matrixa.num_columns, matrixb.num_rows];
+                result.num_rows = matrixa.num_rows;
+                result.num_columns = matrixb.num_columns;
+                Console.WriteLine(result.num_columns);
+                Console.WriteLine(result.num_rows);
 
-				for (int i = 0; i < matrixb.num_rows; i++)
+
+                result.array = new double[matrixa.num_columns, matrixb.num_rows];
+
+				for (int i = 0; i < matrixa.num_rows; i++)
 				{
-					for (int j = 0; j < matrixa.num_columns; j++)
+					for (int j = 0; j < matrixb.num_columns; j++)
 					{
-						for (int k = 0; k < 2; k++)
+						for (int k = 0; k < matrixa.num_rows; k++)
 						{
 							result.array[i, j] += matrixa.array[i, k] * matrixb.array[k, j];
-						}
+                            Console.Write(result.array[i, j] + " ");
+                        }
 					}
 				}
 
-				Console.WriteLine(result.num_columns);
-				Console.WriteLine(result.num_rows);
-
+				
 
 				for (int i = 0; i < result.num_rows; i++)
 				{
 					Console.Write("\n");
 					for (int j = 0; j < result.num_columns; j++)
 					{
-						Console.WriteLine(result.array[i, j]+"*");
+						Console.Write(result.array[i, j]+"*");
 					}
 				}
 
