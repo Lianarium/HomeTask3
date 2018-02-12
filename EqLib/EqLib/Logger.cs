@@ -11,7 +11,7 @@ namespace EqLib
 	{
 
 
-		public static string LOGFILE = "C:/Users/Alina_Apet/Documents/Visual Studio 2015/Projects/EqLib/Log.txt";
+		public static string LOGFILE = "C:/Users/User1/Documents/HT3net/HomeTask3/EqLib/Log.txt";
 
 		public static void WriteLogLinearEquationAndRoots(LinearEq equation)
 		{

@@ -6,3 +6,12 @@ c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\obj\De
 c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\obj\Debug\LibRunner.csprojResolveAssemblyReference.cache
 c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\EqLib.dll
 c:\Users\alina_apet\documents\visual studio 2015\Projects\EqLib\LibRunner\bin\Debug\EqLib.pdb
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.exe.config
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.exe
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\bin\Debug\LibRunner.pdb
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\bin\Debug\EqLib.dll
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\bin\Debug\EqLib.pdb
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.csprojResolveAssemblyReference.cache
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.exe
+C:\Users\User1\Documents\HT3net\HomeTask3\EqLib\LibRunner\obj\Debug\LibRunner.pdb

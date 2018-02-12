@@ -41,6 +41,10 @@ namespace LibRunner
 				QuadrEq.OutputResult(quadratic_equation);
 				Logger.WriteLogQuadrEquationAndRoots(quadratic_equation);
 			}
+
+            Matrix matrix = new Matrix();
+            matrix.addMatrix(matrix);
+            matrix.ArrayOutput(matrix);
 		}
 
 		

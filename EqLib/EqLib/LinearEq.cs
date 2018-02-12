@@ -35,7 +35,7 @@ namespace EqLib
 			{
 				Console.WriteLine("Enter the second coefficent: ");
 				this.stringkoef2 = Console.ReadLine();
-				if (!(double.TryParse(this.stringkoef2, out koef1)))
+				if (!(double.TryParse(this.stringkoef2, out koef2)))
 				{ Logger.WriteviolationLog(stringkoef2); }
 
 			} while (!(double.TryParse(this.stringkoef2, out koef2)));
@@ -62,13 +62,14 @@ namespace EqLib
 
 		public static void SolveEquation(LinearEq equation)
 		{
-			equation.root = (-1) * (equation.koef2 / equation.koef1);
+			equation.root = ((-1)*equation.koef2 / equation.koef1);
 		}
 
 		public static void OutputResult(LinearEq equation)
 		{
 			Console.WriteLine("root: " + equation.root);
-		}
+             
+        }
 
     }
 }
