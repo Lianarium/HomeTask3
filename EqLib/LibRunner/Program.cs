@@ -17,14 +17,7 @@ namespace LibRunner
             do
             {
 
-                string choice;
-
-                do
-                {
-                    Console.WriteLine("Choose action:\n 1.Solve linear equation; \n 2.Solve quadratic equation; \n 3.Multiply two matrixes ");
-                    choice = Console.ReadLine();
-
-                } while (!((choice.Equals("1")) || (choice.Equals("2")) || (choice.Equals("3"))));
+				string choice = Reader.ChooseActionToPerform();
 
                 if (choice.Equals("1"))
                 {
@@ -46,13 +39,16 @@ namespace LibRunner
 
                 else if (choice.Equals("3"))
                 {
-                    Console.WriteLine("!");
+                     
                     Matrix matrixA = new Matrix();
                     Matrix matrixB = new Matrix();
 
                     Matrix.ReadMatrixFromFile(matrixA, Matrix.SourceOfMatrixA());
                     Matrix.ReadMatrixFromFile(matrixB, Matrix.SourceOfMatrixB());
                     Matrix.MultiplyMatrix(matrixA, matrixB);
+					if (Matrix.MultiplyMatrix(matrixA, matrixB) != null)
+						Matrix.OutputMatrix(Matrix.MultiplyMatrix(matrixA, matrixB));
+					else Console.WriteLine("Matrixes are incompatible");
                 }
 
                 Console.WriteLine("Continue?(y/any)");

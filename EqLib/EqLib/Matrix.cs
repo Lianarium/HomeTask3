@@ -83,37 +83,26 @@ namespace EqLib
 					obj.array[i, j] = el;
 				}
 			}
-			Console.Write("\n");
-
-			for (int i = 0; i < obj.num_rows; i++)
-			{
-				Console.Write("\n");
-				for (int j = 0; j < obj.num_columns; j++)
-				{
-					Console.Write(obj.array[i, j]+" ");
-				}
-			}
-
-			Console.Write("\n");
-
-
+			 
 		}
 
 
 
 
-		public  static void  MultiplyMatrix(Matrix matrixa, Matrix matrixb)
+		public  static Matrix  MultiplyMatrix(Matrix matrixa, Matrix matrixb)
 		{
-			
+			Matrix result = new Matrix();
+
 			if (!(matrixa.num_columns == matrixb.num_rows))
 			{
 				Console.WriteLine("Error!");
+				return null;
 			}
 
 			else if (matrixa.num_columns == matrixb.num_rows)
 			{
 
-				Matrix result = new Matrix();
+				
 
                 result.num_rows = matrixa.num_rows;
                 result.num_columns = matrixb.num_columns;
@@ -130,31 +119,32 @@ namespace EqLib
 						for (int k = 0; k < matrixa.num_rows; k++)
 						{
 							result.array[i, j] += matrixa.array[i, k] * matrixb.array[k, j];
-                            Console.Write(result.array[i, j] + " ");
+                            
                         }
 					}
 				}
 
-				
-
-				for (int i = 0; i < result.num_rows; i++)
-				{
-					Console.Write("\n");
-					for (int j = 0; j < result.num_columns; j++)
-					{
-						Console.Write(result.array[i, j]+"*");
-					}
-				}
-
-				Console.Write("\n");
-				//return result;
-				 
+					 
 			}
 
-
+			return result;
 		}
-			//return result;
+			 
+         
 
+		public static void OutputMatrix(Matrix matrix)
+		{
+			for (int i = 0; i < matrix.num_rows; i++)
+			{
+				Console.Write("\n");
+				for (int j = 0; j < matrix.num_columns; j++)
+				{
+					Console.Write(matrix.array[i, j]);
+				}
+			}
+			Console.Write("\n");
 		}
+
+	}
     }
 

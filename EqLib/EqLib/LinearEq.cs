@@ -1,8 +1,10 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace EqLib
 {
@@ -16,32 +18,13 @@ namespace EqLib
 		double koef2;
 		double root;
 
-		public LinearEq()
+	 
+
+		public LinearEq()//
 		{
 
-			do
-			{
-				Console.WriteLine("Enter the first coefficent: ");
-				this.stringkoef1 = Console.ReadLine();
-				if (!(double.TryParse(this.stringkoef1, out koef1)))
-				{ Logger.WriteviolationLog(stringkoef1); }
-
-			} while (!(double.TryParse(this.stringkoef1, out koef1)));
-
-			{ this.koef1 = Convert.ToDouble(this.stringkoef1); }
-
-
-			do
-			{
-				Console.WriteLine("Enter the second coefficent: ");
-				this.stringkoef2 = Console.ReadLine();
-				if (!(double.TryParse(this.stringkoef2, out koef2)))
-				{ Logger.WriteviolationLog(stringkoef2); }
-
-			} while (!(double.TryParse(this.stringkoef2, out koef2)));
-
-			{ this.koef2 = Convert.ToDouble(this.stringkoef2); }
- 
+			koef1 = ReaderFromConsole.ReadLinearCoefficents()[1];
+			koef2 = ReaderFromConsole.ReadLinearCoefficents()[2];
 		}
 
          
